@@ -1,0 +1,31 @@
+# Go binary files
+*.exe
+*.exe~
+*.out
+*.a
+*.so
+*.test
+
+# Build directories - not using any
+/bin/
+/obj/
+
+# Vendor directory (if using vendoring)
+vendor/
+
+# Go modules
+/go.sum
+/go.mod
+
+# IDE or editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
