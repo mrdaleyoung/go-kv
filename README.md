@@ -29,6 +29,9 @@ The application uses the `github.com/unrolled/secure` package to apply basic sec
 
    ```bash
    cd cmd
+   go get github.com/gin-gonic/gin
+   go get github.com/unrolled/secure
+   go get github.com/stretchr/testify
    go build
    
 3. Unit test the app
