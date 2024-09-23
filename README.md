@@ -39,7 +39,6 @@ The application uses the `github.com/unrolled/secure` package to apply basic sec
    go test -race ./... -v   
    
 4. Use the app
-   See api specification in /docs/openapi.yml
 
    ```bash
    cd cmd
