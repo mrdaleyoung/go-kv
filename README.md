@@ -24,3 +24,21 @@ The application uses the `github.com/unrolled/secure` package to apply basic sec
    ```bash
    git clone https://github.com/mrdaleyoung/go-kv.git
    cd go-kv
+   
+2. Build the app
+
+   ```bash
+   cd cmd
+   go build
+   
+3. Unit test the app
+   From the root directory
+
+   ```bash
+
+   go test -race ./... -v   
+   
+4. Use the app
+   See api specification in /docs/openapi.yml
+   
+   

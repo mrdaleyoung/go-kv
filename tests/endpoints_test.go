@@ -43,7 +43,7 @@ func (m *MockKVService) Put(key string, value interface{}) error {
 }
 
 func (m *MockKVService) Delete(key string) error {
-    //Lock the field
+	//Lock the field
 	m.mu.Lock()
 	defer m.mu.Unlock()
 	_, exists := m.data[key]

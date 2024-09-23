@@ -39,9 +39,9 @@ paths:
       requestBody:
         required: true
         content:
-          application/json:
+          text/plain: # Indicating raw text input
             schema:
-              type: string
+              type: string  # Accepts a raw string body
       responses:
         '202':
           description: Value accepted for storage
