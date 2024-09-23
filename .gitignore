@@ -15,10 +15,6 @@ cmd/*  # Ignore everything in cmd
 # Vendor directory (if using vendoring)
 vendor/
 
-# Go modules
-/go.sum
-/go.mod
-
 # IDE or editor specific files
 .idea/
 .vscode/
