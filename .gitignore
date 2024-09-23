@@ -6,9 +6,11 @@
 *.so
 *.test
 
-# Build directories - not using any
+# Build directories
 /bin/
 /obj/
+cmd/*  # Ignore everything in cmd
+!cmd/*.go  # Allow .go files to be tracked
 
 # Vendor directory (if using vendoring)
 vendor/
